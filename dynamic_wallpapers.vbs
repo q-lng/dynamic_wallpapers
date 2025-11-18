@@ -1,0 +1,2 @@
+Set objShell = CreateObject("Wscript.Shell")
+objShell.Run "powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -WindowStyle Hidden -File ""C:\temp\dynamic_wallpapers\dynamic_wallpapers.ps1""", 0
